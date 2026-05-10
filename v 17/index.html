@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <style>
+        /* ID selectors */
+        #green {
+           background-color: green;
+        }
+        /* Class selectors */
+        .red {
+            background-color: rgb(59, 13, 152);
+        }
+        /* Child selectors */
+        div > p {
+            color: rgb(84, 45, 16);
+            background-color: rgb(134, 134, 137);
+        }
+           /* descendant selectors  */
+        div p {
+            color: rgb(84, 45, 16);
+            background-color: rgb(134, 134, 137);
+        }
+    </style>
+</head>
+<body>
+    <div id="green">
+        I am a div.
+        <article>
+        <p>I am a child of the div.</p>
+        </article>
+    </div>
+    <div class="red">
+        I am anotehr div.
+    </div>
+</body>
+</html>
