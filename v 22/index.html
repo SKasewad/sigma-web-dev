@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSS Sizing Units</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            border: 2px solid black;
+            /* width: 200px; */
+            width: 80vw;
+            height: 10vh;
+            background-color: aquamarine;
+            margin: 23px auto;
+        }
+        .container{
+            border: 2px solid black;
+            /* width: 200px; */
+            width: 80vw;
+            height: 80vh;
+            background-color: aquamarine;
+            margin: 23px auto;
+            font-size: 16px;
+        }
+      .container p{
+        font-size: 2em; 
+    }   
+    </style>
 </head>
 <body>
-    
+    <div class="box">
+  This is a box
+    </div>
+    <div class="container">
+        <p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut saepe dicta fugit officiis similique ipsam veritatis reprehenderit repellendus soluta mollitia quisquam, nemo, dolor eligendi fugiat aliquam! Quaerat hic odio, minima minus iure ipsa eligendi eum id doloribus quasi blanditiis, consequatur molestias placeat explicabo asperiores. Similique, perferendis! Architecto quo aliquam, quisquam minus quos pariatur quod corrupti distinctio.
+    </p>
+    </div>
 </body>
 </html>
