@@ -4,16 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Variables</title>
-    <style> </style>
+    <style> 
+    :root{
+        --color:rgb(158, 121, 131);
+        --seccolor:rgb(245, 152, 152);
+        --defpad:23px;
+        --defop:0.2;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .nav{
+        background-color: var(--color);
+    }
+    ul{
+        display: flex;
+    }
+    ul li{
+        opacity: var(--defop);
+        list-style: none;
+        padding: var(--defpad);
+        border: 2px solid var(--seccolor);
+    }
+    ul li:first-child{
+         --color:rgb(177, 227, 78);
+          background-color: var(--color);
+
+    }
+    .container{
+        background-color: var(--seccolor);
+    }
+    </style>
 </head>
 <body>
-    <div>
+    <div class="nav">
         <ul>
             <li>About</li>
             <li>Contact</li>
             <li>About</li>
         </ul>
     </div>
-    div
+    <div class="container">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus velit ipsa quidem placeat maxime praesentium voluptatem ratione quod? Minus repellat sunt delectus eos. Illo provident veritatis omnis veniam ipsam assumenda, ipsa harum perferendis magnam odio. Sint unde harum dicta velit iure at corporis voluptates saepe?
+    </div>
 </body>
 </html>
