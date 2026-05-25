@@ -1,0 +1,39 @@
+/* .box:first-child{
+    background-color: red;
+} */
+/* .box::first-line{
+    color: yellow;
+} */
+/* .boxes *{
+    color: blue;
+    border: 2px solid black;
+ }
+p, a, .box, [data-color="primary"]{
+    padding-top: 45px;
+ } */
+/* .box:nth-child(odd){
+    background-color: blueviolet;
+ } */
+/* .box:nth-last-child(1){
+    background-color: rgb(37, 127, 206);
+  } */
+.boxes::before {
+  content: "Sandy is good";
+  color: blueviolet;
+}
+.boxes::after {
+  content: "Sigma course is also good";
+  color: maroon;
+}
+::selection {
+  color: aqua;
+  background-color: black;
+}
+.box::first-letter {
+  color: peru;
+  font-size: 34px;
+}
+input::placeholder{
+    color: blue;
+    background-color: bisque;
+}
