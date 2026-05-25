@@ -1,0 +1,61 @@
+<style>
+
+      body{
+        background-color: grey;
+      }
+      div {
+        height: 550px;
+        width: 310px;
+        border: 0.5px solid black;
+        border-radius: 6px;
+        position: relative;
+        top: 133px;
+        left: 550px;
+        box-shadow: 0px 0px 4px 0px black;
+        padding: 2px;
+        background-color: white;
+      }
+      span {
+        border: 0.5px solid black;
+        border-radius: 5px;
+        /* width:2px; */
+        background-color: rgb(241, 246, 246);
+        position: absolute;
+        top: 256px;
+        left: 9px;
+        padding: 2px;
+      }
+      #lake {
+        border: 0.5px solid black;
+        border-radius: 5px;
+        /* width:2px; */
+        background-color: rgb(241, 246, 246);
+        position: absolute;
+        top: 256px;
+        left: 70px;
+        padding: 2px;
+      }
+      h1{
+         font-family: "Noto Sans", sans-serif;
+         position: absolute;
+         top: 265px;
+         left: 9px;
+      }
+      p{
+        font-family: "Noto Sans", sans-serif;
+        position: absolute;
+        top: 320px;
+        left: 9px;
+        padding: 2px;
+      }
+      button{
+        position: absolute;
+        top: 520px;
+        left: 38%;
+        padding: 5px;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(131, 165, 238);
+        box-shadow: 0px 0px 2px 0px black;
+      }
+    </style>
