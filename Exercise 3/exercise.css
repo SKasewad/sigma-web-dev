@@ -19,12 +19,17 @@ ul li {
   /* border: 2px solid var(--seccolor); */
   list-style: none;
   box-sizing: none;
+  margin-right: 200px;
 }
 ul li:first-child {
   --seccolor: rgb(240, 240, 98);
   background-color: var(--seccolor);
 }
 ul li:last-child {
+  --color: rgb(227, 32, 32);
+  background-color: var(--color);
+}
+ul li:nth-child(2){
   --color: rgb(227, 32, 32);
   background-color: var(--color);
 }
